@@ -3,39 +3,35 @@ body {
 }
 
 header {
-  background: url("../images/DSC02006-cb-vigmag-2-wall.jpg") no-repeat top / cover;
-  height: 20vh;
+  background: url(../images/pexels-photo-207142-bricks-selenium.jpg) center / cover;
+  height: 60vh;
   justify-content: center;
-  text-align: center;
+  align-items: center;
 }
 
 h1 {
-  color: rgba(0, 0, 0, 0.25);
-  font-size: 8em;
+  color: rgba(255, 255, 255, 1);
+  font-size: 4rem;
   font-weight: 800;
-  letter-spacing: .25em;
-  line-height: 1em;
+  letter-spacing: .15em;
   text-transform: uppercase;
-  text-align: right;
-  padding-right: 5%;
+  line-height: 2em;
+}
+
+.slogan {
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(0,0,0,.25);
+  font-size: 1rem;
+  font-weight: 400;
+  letter-spacing: .05em;
+  /* line-height: .25em; */
+  /* outline: .1rem solid; */
+  /* padding: 1rem .25rem; */
+  /* margin: 0 10%; */
 }
 
 main {
   max-width: 900px;
-}
-
-footer.mdl-mini-footer {
-   bottom: 0;
-   padding: 0.5rem;
-   position: fixed;
-   width: 100%;
-   z-index: 1;
- }
-
-footer.mdl-mini-footer > ul {
-  margin: auto;
-  font-size: 2rem;
-  letter-spacing: .2em;
 }
 
 .project-description {
@@ -44,6 +40,30 @@ footer.mdl-mini-footer > ul {
 
 .project img {
   width: 100%;
+}
+
+.mdl-layout__header {
+  justify-content: center;
+}
+
+footer.mdl-mini-footer {
+  bottom: 0;
+  padding: .5rem;
+  position: fixed;
+  width: 100%;
+  z-index: 1;
+ }
+
+footer.mdl-mini-footer > ul {
+  margin: auto;
+  font-size: 2rem;
+  letter-spacing: .2em;
+}
+
+@media screen and (max-width: 1024px) {
+  header.mdl-layout__header {
+    display: flex;
+  }
 }
 
 .project h2 {
@@ -57,16 +77,6 @@ footer.mdl-mini-footer > ul {
 }
 
 .featured-project h2 {
-  font-size: 1.8em;
+  font-size: 2em;
   font-weight: 600;
-}
-
-.slogan {
-  color: rgba(0, 0, 0, 1);
-  font-size: 1.3em;
-  font-weight: 100;
-  letter-spacing: .1em;
-  line-height: 0em;
-  text-align: right;
-  padding-right: 4%;
 }
