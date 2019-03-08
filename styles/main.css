@@ -1,0 +1,72 @@
+body {
+  padding-bottom: 5rem;
+}
+
+header {
+  background: url("../images/DSC02006-cb-vigmag-2-wall.jpg") no-repeat top / cover;
+  height: 20vh;
+  justify-content: center;
+  text-align: center;
+}
+
+h1 {
+  color: rgba(0, 0, 0, 0.25);
+  font-size: 8em;
+  font-weight: 800;
+  letter-spacing: .25em;
+  line-height: 1em;
+  text-transform: uppercase;
+  text-align: right;
+  padding-right: 5%;
+}
+
+main {
+  max-width: 900px;
+}
+
+footer.mdl-mini-footer {
+   bottom: 0;
+   padding: 0.5rem;
+   position: fixed;
+   width: 100%;
+   z-index: 1;
+ }
+
+footer.mdl-mini-footer > ul {
+  margin: auto;
+  font-size: 2rem;
+  letter-spacing: .2em;
+}
+
+.project-description {
+  padding-left: 0;
+}
+
+.project img {
+  width: 100%;
+}
+
+.project h2 {
+  font-size: 1.6em;
+  font-weight: 500;
+}
+
+.project h3 {
+  font-size: 1.4em;
+  font-weight: 500;
+}
+
+.featured-project h2 {
+  font-size: 1.8em;
+  font-weight: 600;
+}
+
+.slogan {
+  color: rgba(0, 0, 0, 1);
+  font-size: 1.3em;
+  font-weight: 100;
+  letter-spacing: .1em;
+  line-height: 0em;
+  text-align: right;
+  padding-right: 4%;
+}
